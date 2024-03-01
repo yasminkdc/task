@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex</title>
+    <link rel="stylesheet" href="flex.css">
+    <style>
+        *{
+    margin: 0;
+ 
+}
+.container{
+    width: auto;
+    height: 630px;
+    border: solid;
+}
+
+header{
+    height: 100px;
+    font-size: 70px;
+    text-align: center;
+    background-color: blueviolet;
+}
+footer{
+    height: 50px;
+}
+nav{
+    height: 30px;
+}
+.ashok{
+    height:450px;
+    display: flex;
+}
+#left-side, #center, #right-side{
+    width: 300px;
+    background-color: aqua;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+#pic1{
+    height: 100px;
+    float: left;
+    position: relative;
+    left: 100px;
+}
+#pic2{
+    height: 100px;
+   float: right;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header> <img src="task.jpg" alt="" id="pic1">regional center <img src="ashok.jpg" alt="" id="pic2"></header>
+        <nav>home about admission  </nav>
+        <div class="ashok">
+            <div id="left-side">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur facilis et reprehenderit, libero id eos explicabo soluta sequi vero nam impedit laborum tempora voluptatibus voluptatem laudantium velit sed deserunt. Nesciunt.
+                Voluptate sit recusandae sequi at? Nemo fugiat maxime consequatur, voluptatum amet omnis vel, nesciunt aliquid unde nostrum esse, quaerat ex voluptates sed dolore. Odio dolorum inventore, laboriosam quasi accusantium rem?
+            </div>
+            <div id="center">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam, perspiciatis est! Deleniti, illum? Vitae beatae, quo deserunt amet doloribus aliquid, ut, omnis autem ex harum nisi libero odio blanditiis labore.
+                Quos molestiae culpa maiores asperiores quae minus reiciendis doloremque commodi voluptatum. Cupiditate illum ipsa, molestias velit aliquam tenetur maxime quae earum quos saepe quasi pariatur eaque libero non optio beatae.
+                Natus perspiciatis facere voluptate eligendi ipsam, libero eos ratione vero, quidem laborum quam consectetur architecto eius ad repudiandae? Sit cumque vero laudantium laboriosam distinctio atque excepturi tenetur labore facere suscipit.
+            </div>
+            <div id="right-side">
+                <ul>
+                    <li>Lorem, ipsum dolor.</li>
+                    <li>Et, aliquid dicta.</li>
+                    <li>Provident, eum ea.</li>
+                    <li>Debitis, perferendis itaque.</li>
+                    <li>Commodi, sit possimus.</li>
+                </ul>
+            </div>
+        </div>
+        <footer>&copy; all rights are reserved</footer>
+    </div>
+</body>
+</html>
